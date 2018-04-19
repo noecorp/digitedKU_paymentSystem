@@ -1,0 +1,361 @@
+<Menus>
+
+<!-- Administration -->
+	<Menu>
+		<ParentMenu></ParentMenu>
+		<Title>Administration</Title>
+		<Permissions>
+			<Permission>USER_C</Permission>
+			<Permission>USER_U</Permission>
+			<Permission>USER_D</Permission>				
+			<Permission>ROLE_C</Permission>
+			<Permission>ROLE_U</Permission>
+			<Permission>ROLE_D</Permission>	
+			<Permission>PERMISSION_C</Permission>
+			<Permission>PERMISSION_U</Permission>
+			<Permission>PERMISSION_D</Permission>
+			<Permission>DISCIPLINE_C</Permission>
+			<Permission>DISCIPLINE_U</Permission>
+			<Permission>DISCIPLINE_D</Permission>
+			<Permission>SCHOOL_C</Permission>
+			<Permission>SCHOOL_U</Permission>
+			<Permission>SCHOOL_D</Permission>
+			<Permission>POSITION_C</Permission>
+			<Permission>POSITION_U</Permission>
+			<Permission>POSITION_D</Permission>						
+		</Permissions>			
+	</Menu>
+
+		<Menu>
+			<ParentMenu>Administration</ParentMenu>
+			<Title>Role Related</Title>
+			<Permissions>
+				<Permission>ROLE_C</Permission>
+				<Permission>ROLE_U</Permission>
+				<Permission>ROLE_D</Permission>	
+				<Permission>PERMISSION_C</Permission>
+				<Permission>PERMISSION_U</Permission>
+				<Permission>PERMISSION_D</Permission>															
+			</Permissions>
+		</Menu>	
+
+			<Menu>
+				<ParentMenu>Role Related</ParentMenu>
+				<Title>Manage Role</Title>
+				<Link>role.php</Link>
+				<Permissions>
+					<Permission>ROLE_C</Permission>
+					<Permission>ROLE_U</Permission>
+					<Permission>ROLE_D</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Role Related</ParentMenu>
+				<Title>Manage Permission</Title>
+				<Link>permission.php</Link>
+				<Permissions>
+					<Permission>PERMISSION_C</Permission>
+					<Permission>PERMISSION_U</Permission>
+					<Permission>PERMISSION_D</Permission>
+				</Permissions>
+			</Menu>
+
+		<Menu>
+			<ParentMenu>Administration</ParentMenu>
+			<Title>Setup Related</Title>
+			<Permissions>
+				<Permission>USER_C</Permission>
+				<Permission>USER_U</Permission>
+				<Permission>USER_D</Permission>	
+				<Permission>DISCIPLINE_C</Permission>
+				<Permission>DISCIPLINE_U</Permission>
+				<Permission>DISCIPLINE_D</Permission>
+				<Permission>SCHOOL_C</Permission>
+				<Permission>SCHOOL_U</Permission>
+				<Permission>SCHOOL_D</Permission>
+				<Permission>POSITION_C</Permission>
+				<Permission>POSITION_U</Permission>
+				<Permission>POSITION_D</Permission>
+			</Permissions>
+		</Menu>	
+
+			<Menu>
+				<ParentMenu>Setup Related</ParentMenu>
+				<Title>Manage User</Title>
+				<Link>user.php</Link>
+				<Permissions>
+					<Permission>USER_C</Permission>
+					<Permission>USER_U</Permission>
+					<Permission>USER_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Setup Related</ParentMenu>
+				<Title>Manage Discipline</Title>
+				<Link>discipline.php</Link>
+				<Permissions>
+					<Permission>DISCIPLINE_C</Permission>
+					<Permission>DISCIPLINE_U</Permission>
+					<Permission>DISCIPLINE_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Setup Related</ParentMenu>
+				<Title>Manage School</Title>
+				<Link>school.php</Link>
+				<Permissions>
+					<Permission>SCHOOL_C</Permission>
+					<Permission>SCHOOL_U</Permission>
+					<Permission>SCHOOL_D</Permission>
+				</Permissions>
+			</Menu>			
+			<Menu>
+				<ParentMenu>Setup Related</ParentMenu>
+				<Title>Manage Position</Title>
+				<Link>position.php</Link>
+				<Permissions>
+					<Permission>POSITION_C</Permission>
+					<Permission>POSITION_U</Permission>
+					<Permission>POSITION_D</Permission>
+				</Permissions>
+			</Menu>
+
+<!-- User -->
+	<Menu>
+		<ParentMenu></ParentMenu>
+		<Title>User</Title>
+		<Permissions>
+			<Permission>USER_R</Permission>	
+		</Permissions>			
+	</Menu>
+
+		<Menu>
+			<ParentMenu>User</ParentMenu>
+			<Title>User Related</Title>
+			<Permissions>
+				<Permission>USER_R</Permission>														
+			</Permissions>
+		</Menu>	
+
+			<Menu>
+				<ParentMenu>User Related</ParentMenu>
+				<Title>User Details</Title>
+				<Link>user_details.php</Link>
+				<Permissions>
+					<Permission>USER_R</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>User Related</ParentMenu>
+				<Title>Forgot Password</Title>
+				<Link>forgot_password.php</Link>
+				<Permissions>
+					<Permission>USER_R</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>User Related</ParentMenu>
+				<Title>Search User</Title>
+				<Link>user_search.php</Link>
+				<Permissions>
+					<Permission>USER_R</Permission>
+				</Permissions>
+			</Menu>
+
+	<Menu>
+			<ParentMenu>User</ParentMenu>
+			<Title>Payments Related</Title>
+			<Permissions>
+				<Permission>USER_R</Permission>														
+			</Permissions>
+	</Menu>	
+
+		<Menu>
+				<ParentMenu>Payments Related</ParentMenu>
+				<Title>Recharge</Title>
+				<Link>recharge.php</Link>
+				<Permissions>
+					<Permission>BALANCE_R</Permission>
+				</Permissions>
+		</Menu>
+
+		<Menu>
+				<ParentMenu>Payments Related</ParentMenu>
+				<Title>Payment</Title>
+				<Link>payment.php</Link>
+				<Permissions>
+					<Permission>BALANCE_C</Permission>
+				</Permissions>
+		</Menu>
+
+		<Menu>
+				<ParentMenu>Payments Related</ParentMenu>
+				<Title>Convert Credit</Title>
+				<Link>credit_conversion.php</Link>
+				<Permissions>
+					<Permission>BALANCE_C</Permission>
+				</Permissions>
+		</Menu>
+
+
+<!-- product -->
+	<Menu>
+		<ParentMenu></ParentMenu>
+		<Title>Product</Title>
+		<Permissions>
+			<Permission>USER_R</Permission>	
+		</Permissions>			
+	</Menu>
+		<Menu>
+			<ParentMenu>Product</ParentMenu>
+			<Title>Product Related</Title>
+			<Permissions>
+				<Permission>PRODUCT_R</Permission>														
+			</Permissions>
+		</Menu>	
+		
+
+			<Menu>
+				<ParentMenu>Product Related</ParentMenu>
+				<Title>Create Product</Title>
+				<Link>create_product.php</Link>
+				<Permissions>
+					<Permission>PRODUCT_C</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Product Related</ParentMenu>
+				<Title>Shop Here</Title>
+				<Link>products.php</Link>
+				<Permissions>
+					<Permission>PRODUCT_R</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Product Related</ParentMenu>
+				<Title>Check Out</Title>
+				<Link>checkout.php</Link>
+				<Permissions>
+					<Permission>PRODUCT_R</Permission>
+				</Permissions>
+			</Menu>
+
+
+
+
+
+<!-- Student Center -->
+
+	<Menu>
+		<ParentMenu></ParentMenu>
+		<Title>Student Center</Title>
+		<Permissions>
+			<Permission>DISCUSSION_C</Permission>
+			<Permission>DISCUSSION_R</Permission>
+			<Permission>DISCUSSION_U</Permission>
+			<Permission>DISCUSSION_D</Permission>												
+			<Permission>DISCUSSION_CAT_C</Permission>
+			<Permission>DISCUSSION_CAT_R</Permission>
+			<Permission>DISCUSSION_CAT_U</Permission>
+			<Permission>DISCUSSION_CAT_D</Permission>												
+		</Permissions>			
+	</Menu>
+
+		<Menu>
+			<ParentMenu>Student Center</ParentMenu>
+			<Title>Discussion Topic</Title>
+			<Permissions>
+				<Permission>DISCUSSION_C</Permission>
+				<Permission>DISCUSSION_R</Permission>
+				<Permission>DISCUSSION_U</Permission>
+				<Permission>DISCUSSION_D</Permission>												
+				<Permission>DISCUSSION_CAT_C</Permission>
+				<Permission>DISCUSSION_CAT_U</Permission>
+				<Permission>DISCUSSION_CAT_D</Permission>
+			</Permissions>
+		</Menu>
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Manage Discussion Category</Title>
+				<Link>discussion_category.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_CAT_C</Permission>
+					<Permission>DISCUSSION_CAT_U</Permission>
+					<Permission>DISCUSSION_CAT_D</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Manage Discussion</Title>
+				<Link>discussion.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_C</Permission>
+					<Permission>DISCUSSION_U</Permission>
+					<Permission>DISCUSSION_D</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Search Discussion</Title>
+				<Link>discussion_search.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_C</Permission>
+					<Permission>DISCUSSION_R</Permission>
+					<Permission>DISCUSSION_U</Permission>
+					<Permission>DISCUSSION_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Answered Discussion</Title>
+				<Link>discussion_answered.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_C</Permission>
+					<Permission>DISCUSSION_R</Permission>
+					<Permission>DISCUSSION_U</Permission>
+					<Permission>DISCUSSION_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Unanswered Discussion</Title>
+				<Link>discussion_unanswered.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_C</Permission>
+					<Permission>DISCUSSION_R</Permission>
+					<Permission>DISCUSSION_U</Permission>
+					<Permission>DISCUSSION_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Recent Discussion</Title>
+				<Link>discussion_recent.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_C</Permission>
+					<Permission>DISCUSSION_R</Permission>
+					<Permission>DISCUSSION_U</Permission>
+					<Permission>DISCUSSION_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Discussion List</Title>
+				<Link>discussion_list.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_C</Permission>
+					<Permission>DISCUSSION_R</Permission>
+					<Permission>DISCUSSION_U</Permission>
+					<Permission>DISCUSSION_D</Permission>
+				</Permissions>
+			</Menu>
+
+
+</Menus>
